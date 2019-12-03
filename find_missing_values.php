@@ -17,6 +17,6 @@ function findMissingValues(array $inputArray): array
     return $resultArray;
 }
 
-print_r(findMissingValues($inputArray = [-2,-1,3,4,5]));
-print_r(findMissingValues($inputArray = [2,-1,3]));
-print_r(findMissingValues($inputArray = [1,2,3]));
+print_r(findMissingValues($inputArray = [-2, -1, 3, 4, 5]));
+print_r(findMissingValues($inputArray = [0, 2, -1, 3]));
+print_r(findMissingValues($inputArray = [1, 2, 3]));
