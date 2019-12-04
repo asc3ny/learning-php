@@ -1,10 +1,5 @@
-#!/usr/bin/php
 <?php
-
-/*
-* @require PHP7
-*/
-
+namespace FindValues;
 class FindValues
 {
     public function findMissingValues(array $inputArray): array
@@ -20,9 +15,3 @@ class FindValues
         return $resultArray;
     }
 }
-
-$findValues = new FindValues;
-
-print_r($findValues->findMissingValues($inputArray = [-2, -1, 3, 4, 5]));
-print_r($findValues->findMissingValues($inputArray = [0, 2, -1, 3]));
-print_r($findValues->findMissingValues($inputArray = [1, 2, 3]));

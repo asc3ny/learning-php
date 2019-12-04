@@ -1,0 +1,13 @@
+{
+    "name": "rosh1ck/find-values",
+    "description": "learning php",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FindValues\\": ""
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4.3"
+    }
+}

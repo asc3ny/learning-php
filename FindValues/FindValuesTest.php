@@ -1,11 +1,5 @@
-#!/usr/bin/php
 <?php
-/*
- * @require PHP7.2
- * @require PHPUnit 8.4.3
- */
-
-require 'FindValues.php';
+namespace FindValues;
 use PHPUnit\Framework\TestCase;
 
 class FindValuesTest extends TestCase
