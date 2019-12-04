@@ -4,18 +4,19 @@ use PHPUnit\Framework\TestCase;
 
 class FindValuesTest extends TestCase
 {
-    public $inputArray = [2,4];
-    public function testFindMissingValuesContainsOnly()
+    public function testFindMissingValuesEquals() 
     {
+        $inputArray = [-1,1,3,5];
         $findValues = new FindValues;
-
-        $this->assertContainsOnly('integer', $findValues->findMissingValues($this->inputArray));
+        $this->assertEquals([0,2,4], $findValues->findMissingValues($inputArray));
     }
 
-    public function testFindMissingValuesNotEmpty()
+
+    public function testFindMissingValuesEmpty()
     {
+        $inputArray = [3,4];
         $findValues = new FindValues;
-        $this->assertNotEmpty($findValues->findMissingValues($this->inputArray));
+        $this->assertEmpty($findValues->findMissingValues($inputArray));
     }
 }
 
