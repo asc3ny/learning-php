@@ -5,14 +5,14 @@
  */
 
 require 'FindValues.php';
-
 use PHPUnit\Framework\TestCase;
 
 class FindValuesTest extends TestCase
 {
-    public function testFindMissingValues ()
+    public function testFindMissingValues()
     {
         $findValues = new FindValues;
-        $this->assertTrue($findValues->findMissingValues($inputArray = [-2, -1, 3, 4, 5]));
+        $this->assertContainsOnly('integer', $findValues->findMissingValues($inputArray = [2,4]));
     }
 }
+
