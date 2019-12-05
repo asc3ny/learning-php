@@ -1,7 +1,4 @@
-This branch created for learning PHP
-
-
-### FindValues, FindValuesTest
+#### FindValues, FindValuesTest
 
 Required:
 ```
@@ -14,6 +11,7 @@ Install:
 git clone https://github.com/Rosh1ck/learning-php.git
 cd learning-php/FindValues/
 composer install
+composer dumpautoload
 ```
 
 Run test:
