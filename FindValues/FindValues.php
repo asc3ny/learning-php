@@ -1,5 +1,6 @@
 <?php
 namespace FindValues;
+
 class FindValues
 {
     public function findMissingValues(array $inputArray): array
