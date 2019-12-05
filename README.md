@@ -9,14 +9,14 @@ Composer 1.9.0
 Install:
 ```
 git clone https://github.com/Rosh1ck/learning-php.git
-cd learning-php/FindValues/
+cd learning-php
 composer install
 composer dumpautoload
 ```
 
 Run test:
 ```
-php vendor/bin/phpunit FindValuesTest.php
+php vendor/bin/phpunit FindValues/FindValuesTest.php
 ```
 
 
