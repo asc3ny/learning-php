@@ -2,3 +2,4 @@
 vendor/
 composer.lock
 change.log
+.php_cs.cache
