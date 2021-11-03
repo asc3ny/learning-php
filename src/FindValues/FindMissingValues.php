@@ -2,7 +2,7 @@
 
 namespace FindValues;
 
-class FindValues
+class FindMissingValues
 {
     public function findMissingValues(array $inputArray): array
     {
